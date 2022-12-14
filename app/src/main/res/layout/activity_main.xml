@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="?attr/colorPrimary"
-        app:title="Todo"
+        app:title="To Do List"
         app:titleTextColor="@android:color/white" />
 
     <androidx.recyclerview.widget.RecyclerView
@@ -30,11 +30,11 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
-        android:layout_marginEnd="32dp"
-        app:backgroundTint="@color/colorPrimary"
-        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="183dp"
+        android:layout_marginBottom="40dp"
         android:onClick="openNewTask"
-        android:src="@drawable/ic_baseline_add_24" />
+        android:src="@drawable/ic_baseline_add_24"
+        app:backgroundTint="@color/colorPrimary" />
 
 
 </RelativeLayout>
